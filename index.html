@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio pessoal (CV online)</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Ícones Lucide para um toque moderno -->
+    <script src="https://unpkg.com/lucide-darkmode@latest"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <!-- Cabeçalho do site com o título e a navegação -->
+    <header class="header">
+      <div class="container">
+        <h1 class="site-title">Portfólio pessoal (CV online)</h1>
+        <!-- Navegação principal do site -->
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <!-- Links para as diferentes seções do portfólio -->
+            <li class="nav-item">
+              <a href="#sobre-mim" class="nav-link" data-section="sobre-mim"
+                >Sobre Mim</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#formacao" class="nav-link" data-section="formacao"
+                >Formação</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#hobbies" class="nav-link" data-section="hobbies"
+                >Hobbies</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contato" class="nav-link" data-section="contato"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Conteúdo principal do site, onde as seções serão exibidas -->
+    <main class="main-content container">
+      <!-- Seção "Sobre Mim" -->
+      <section id="sobre-mim" class="content-section active">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="content-card">
+          <img src="myPhoto.jpeg" alt="Sua foto" class="profile-picture" />
+          <p>
+            Olá! Meu nome é Antonio Sergio Farias Mota. Sou um estudante
+            apaixonado por Qualidade de Software e adoro transformar ideias em
+            realidade através do código. Minha jornada na programação começou
+            com ensino médio técnico em Informática, onde tive meu primeiro
+            contato com linguagens de programação e desenvolvimento de software.
+            e desde então, tenho buscado constantemente aprender e aprimorar
+            minhas habilidades.
+          </p>
+          <p>
+            Nos meus tempos livres, gosto de jogar jogos eletrônicos no
+            computador, praticar esportes, e sair nos fins de semana. Acredito
+            que a combinação de estudo e lazer é essencial para um
+            desenvolvimento equilibrado e criativo.
+          </p>
+          <p>
+            Estou sempre aberto a novos desafios e oportunidades para colaborar
+            em projetos inovadores. Sinta-se à vontade para explorar meu
+            trabalho!
+          </p>
+        </div>
+      </section>
+
+      <!-- Seção "Formação Educacional e Idiomas" -->
+      <section id="formacao" class="content-section">
+        <h2 class="section-title">Formação e Idiomas</h2>
+        <div class="content-card">
+          <h3>Formação Educacional</h3>
+          <ul>
+            <li>
+              <strong>Analise de desenvolvimento de Sistemas</strong> - Uninter,
+              2025 - 2027
+            </li>
+            <li>
+              <strong>Técnico em Informática</strong> - EEEP Manoel Mano, 2021
+            </li>
+            <!-- Adicione mais itens conforme sua formação -->
+          </ul>
+
+          <h3>Idiomas</h3>
+          <ul>
+            <li><strong>Português:</strong> Nativo</li>
+            <li><strong>Inglês:</strong>Intermediário</li>
+            <!-- Adicione mais idiomas se aplicável -->
+          </ul>
+        </div>
+      </section>
+
+      <!-- Seção "Hobbies" -->
+      <section id="hobbies" class="content-section">
+        <h2 class="section-title">Meus Hobbies</h2>
+        <div class="content-card hobbies-grid">
+          <!-- Hobby 1: Jogar Jogos Eletrônicos -->
+          <div class="hobby-item">
+            <img src="videoGame.jpeg" alt="Controle de videogame" />
+            <h3>Jogar Jogos Eletrônicos</h3>
+            <p>
+              Adoro a imersão e o desafio que os jogos eletrônicos proporcionam.
+              Seja em aventuras épicas, estratégias complexas ou competições
+              online, é uma forma divertida de relaxar e exercitar a mente.
+            </p>
+          </div>
+          <!-- Hobby 2: Assistir Jogos de Futebol -->
+          <div class="hobby-item">
+            <img src="futebol.jpg" alt="Estádio de futebol" />
+            <h3>Assistir Jogos de Futebol</h3>
+            <p>
+              Sou um grande fã de futebol e adoro acompanhar as partidas, torcer
+              pelo meu time e vibrar com cada gol. É uma paixão que me conecta
+              com amigos e família.
+            </p>
+          </div>
+          <!-- Hobby 3: Sair aos Fins de Semana -->
+          <div class="hobby-item">
+            <img
+              src="fimDeSemana.jpg"
+              alt="Pessoas se divertindo ao ar livre"
+            />
+            <h3>Sair aos Fins de Semana</h3>
+            <p>
+              Aproveitar os fins de semana para sair e socializar é algo que
+              valorizo muito. Seja para encontrar amigos, ir a eventos culturais
+              ou simplesmente explorar novos lugares, gosto de aproveitar o
+              tempo livre.
+            </p>
+          </div>
+          <!-- Adicione mais hobbies se desejar, seguindo o mesmo padrão -->
+        </div>
+      </section>
+
+      <!-- Seção "Contato" -->
+      <section id="contato" class="content-section">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div class="content-card">
+          <p>
+            Ficaria muito feliz em ouvir de você! Preencha o formulário abaixo
+            ou me envie uma mensagem.
+          </p>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="nome">Nome:</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Seu nome completo"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="seu.email@exemplo.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem:</label>
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="6"
+                placeholder="Escreva sua mensagem aqui..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="button primary">
+              Enviar Mensagem
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé do site -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 [Seu Nome]. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="script.js"></script>
+  </body>
+</html>
