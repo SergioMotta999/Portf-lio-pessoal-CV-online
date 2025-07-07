@@ -38,12 +38,13 @@ O site é composto por quatro seções principais, acessíveis através de um me
 
 O projeto é organizado em três arquivos principais, localizados na mesma pasta:
 
-.
+```.
 └── meu-portfolio/
     ├── index.html
     ├── style.css
     ├── script.js
     └── myPhoto.jpeg
+```
 
 
 * `index.html`: Contém toda a estrutura HTML do site.
