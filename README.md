@@ -42,8 +42,7 @@ O projeto é organizado em três arquivos principais, localizados na mesma pasta
 └── meu-portfolio/
     ├── index.html
     ├── style.css
-    ├── script.js
-    └── myPhoto.jpeg
+    └── script.js
 ```
 
 
